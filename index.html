@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Minimal, dark-mode portfolio showcasing UI/UX Design, Editing, and Software Programming." />
+  <title>Youssex Shop</title>
+
+  <!-- Optional: High-quality typography (uncomment if you want Inter) -->
+  <!--
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  -->
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Skip link for accessibility -->
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="header">
+    <div class="container header__inner">
+      <a class="brand" href="#top" aria-label="Home">
+        <span class="brand__mark" aria-hidden="true"></span>
+        <span class="brand__text">Youssex Shop</span>
+      </a>
+
+<nav class="nav" aria-label="Primary">
+  <a class="nav__link" href="#about">About</a>
+  <a class="nav__link" href="#services">Services</a>
+  <a class="nav__link" href="#portfolio">Portfolio</a>
+  <a class="nav__link" href="#contact">Contact</a>
+</nav>
+
+
+
+
+      </nav>
+
+      <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+<div class="mobile-nav" id="mobileNav" hidden>
+<a class="mobile-nav__link" href="#about">About</a>
+<a class="mobile-nav__link" href="#services">Services</a>
+<a class="mobile-nav__link" href="#portfolio">Portfolio</a>
+<a class="mobile-nav__link" href="#contact">Contact</a>
+
+</div>
+
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <p class="eyebrow">Available for freelance & contract work</p>
+
+          <h1 class="hero__title">
+            I design, edit, and build experiences that convert.
+          </h1>
+
+          <p class="hero__subtitle">
+            I’m a <span class="typewrap" aria-label="Roles">
+              <span id="typewriter" class="typewriter" aria-live="polite"></span>
+              <span class="cursor" aria-hidden="true">|</span>
+            </span>
+            delivering clean visuals, polished media, and reliable software.
+          </p>
+
+          <div class="hero__cta">
+            <a class="btn btn--primary" href="#portfolio">View Portfolio</a>
+            <a class="btn btn--ghost" href="#contact">Get in Touch</a>
+          </div>
+
+          <div class="hero__trust">
+            <div class="trust-item">
+              <span class="trust-item__num">3+</span>
+              <span class="trust-item__label">Core Services</span>
+            </div>
+            <div class="trust-item">
+              <span class="trust-item__num">Fast</span>
+              <span class="trust-item__label">Delivery</span>
+            </div>
+            <div class="trust-item">
+              <span class="trust-item__num">Clean</span>
+              <span class="trust-item__label">Modern Style</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__card" role="presentation">
+          <div class="hero-card__top">
+            <div class="status">
+              <span class="status__dot" aria-hidden="true"></span>
+              <span class="status__text">Open for Projects</span>
+            </div>
+            <span class="chip">Dark • Minimal • Pro</span>
+          </div>
+
+          <div class="hero-card__body">
+            <h2 class="hero-card__title">What you get</h2>
+            <ul class="checklist">
+              <li>Clear, high-impact UI/UX</li>
+              <li>Sharp video/photo edits</li>
+              <li>Maintainable code & delivery</li>
+            </ul>
+          </div>
+
+          <div class="hero-card__footer">
+            <a class="btn btn--small btn--primary" href="#contact">Request a Quote</a>
+            <a class="btn btn--small btn--ghost" href="#services">Explore Services</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+<section class="section" id="services">
+  <div class="container">
+    <div class="section__head">
+      <h2 class="section__title">Services</h2>
+      <p class="section__desc">Focused offerings designed to move your brand forward.</p>
+    </div>
+
+    <div class="services">
+      <article class="service-card">
+        <div class="service-card__icon" aria-hidden="true">◎</div>
+        <h3 class="service-card__title">Graphic Designer</h3>
+        <p class="service-card__desc">
+          Wireframes, design systems, landing pages, and product UI built for clarity and conversion.
+        </p>
+        <ul class="service-card__list">
+          <li>Landing pages</li>
+          <li>Design systems</li>
+          <li>Prototyping</li>
+        </ul>
+      </article>
+
+      <article class="service-card">
+        <div class="service-card__icon" aria-hidden="true">◈</div>
+        <h3 class="service-card__title">Video / Photo Editing</h3>
+        <p class="service-card__desc">
+          Clean edits, color correction, short-form content, thumbnails, and social-ready assets.
+        </p>
+        <ul class="service-card__list">
+          <li>Short-form edits</li>
+          <li>Color & retouch</li>
+          <li>Brand visuals</li>
+        </ul>
+      </article>
+
+      <article class="service-card">
+        <div class="service-card__icon" aria-hidden="true">⌘</div>
+        <h3 class="service-card__title">Software Programming</h3>
+        <p class="service-card__desc">
+          Responsive web builds, interactive UI, and practical solutions that scale with your needs.
+        </p>
+        <ul class="service-card__list">
+          <li>Web apps</li>
+          <li>Performance fixes</li>
+          <li>Front-end UX</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- ABOUT -->
+<section class="section" id="about">
+  <div class="container about">
+    <div class="about__text reveal">
+      <div class="section__head about__head">
+        <h2 class="section__title">About Me</h2>
+        <p class="section__desc">A quick overview of who I am and how I work.</p>
+      </div>
+
+      <div class="about__bio" id="aboutBio">
+        <p>
+          My full name is Youssef Boulaayoun, I am 17 years old, I am naciionality Moroccan from Nador, I am a professional video editor, graphic designer, and personal website programmer, among other things. My goal in the future is to promote all my services inside and outside of Morocco.
+        </p>
+
+        <div class="about__more" id="aboutMore">
+          <p>
+            My workflow is simple: understand the goal, design a solution, and deliver assets that are polished,
+            consistent, and easy to use.
+          </p>
+          <p>
+            Whether it’s a landing page, a short-form edit, or an interactive front-end, I aim for speed, quality, and reliability.
+          </p>
+        </div>
+
+        <button
+          class="btn btn--ghost btn--small about__toggle"
+          id="aboutToggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="aboutMore"
+        >
+          Read more
+        </button>
+      </div>
+
+      <div class="about__stats">
+        <div class="stat">
+          <span class="stat__num" data-count="25">0</span>
+          <span class="stat__label">Projects</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num" data-count="3">0</span>
+          <span class="stat__label">Core Services</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num" data-count="48">0</span>
+          <span class="stat__label">Hour Response</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="about__media reveal">
+      <figure class="about__figure">
+        <img
+          class="about__img"
+          src="assets/profile.jpg"
+          alt="Portrait photo"
+          loading="lazy"
+        />
+        <figcaption class="about__caption">Boulaayoun Youssef.</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+
+    <!-- PORTFOLIO -->
+    <section class="section" id="portfolio">
+      <div class="container">
+        <div class="section__head">
+          <h2 class="section__title">Portfolio</h2>
+          <p class="section__desc">Filter by category to quickly see what matters to you.</p>
+        </div>
+
+        <div class="filters" role="tablist" aria-label="Portfolio filters">
+          <button class="filter-btn is-active" data-filter="all" role="tab" aria-selected="true">All</button>
+          <button class="filter-btn" data-filter="design" role="tab" aria-selected="false">Design</button>
+          <button class="filter-btn" data-filter="code" role="tab" aria-selected="false">Code</button>
+          <button class="filter-btn" data-filter="edits" role="tab" aria-selected="false">Edits</button>
+        </div>
+
+        <div class="gallery" id="gallery" aria-label="Portfolio items">
+          <!-- Items injected by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <div class="container contact">
+        <div class="contact__left">
+          <h2 class="section__title">Contact</h2>
+          <p class="section__desc">
+            أخبرني بما تقوم ببنائه. سأرد عليك بالخطوات التالية، والجدول الزمني، وتقدير واضح للتكلفة.
+          </p>
+
+          <div class="contact__info">
+            <div class="info-card">
+              <div class="info-card__label">Email</div>
+              <div class="info-card__value">youssefboulayoun
+                00@gmail.com</div>
+            </div>
+            <div class="info-card">
+              <div class="info-card__label">Location</div>
+              <div class="info-card__value">Mont Aruit Nador Mouhamed V</div>
+            </div>
+            <div class="info-card">
+              <div class="info-card__label">في أي وقت</div>
+              <div class="info-card__value">Withing 24–48 hours</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact__right">
+          <form class="form" id="contactForm" novalidate action="https://formsubmit.co/larbiyoussef157@gmail.com" method="POST">
+            
+            <input type="hidden" name="_subject" value="New message from Youssex Shop" />
+            <input type="hidden" name="_template" value="table" />
+            <input type="hidden" name="_next" value="https://youssex-shop-blush.vercel.app/?sent=1#contact" />
+            <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" />
+<div class="form__row">
+              <label class="field">
+                <span class="field__label">Name</span>
+                <input class="field__input" type="text" name="name" id="name" placeholder="Your name" required />
+                <span class="field__error" data-error-for="name" aria-live="polite"></span>
+              </label>
+
+              <label class="field">
+                <span class="field__label">Email</span>
+                <input class="field__input" type="email" name="email" id="email" placeholder="you@domain.com" required />
+                <span class="field__error" data-error-for="email" aria-live="polite"></span>
+              </label>
+            </div>
+
+            <label class="field">
+              <span class="field__label">Subject</span>
+              <input class="field__input" type="text" name="subject" id="subject" placeholder="Project inquiry" required />
+              <span class="field__error" data-error-for="subject" aria-live="polite"></span>
+            </label>
+
+            <label class="field">
+              <span class="field__label">Message</span>
+              <textarea class="field__input field__textarea" name="message" id="message" placeholder="What do you need help with?" required></textarea>
+              <span class="field__error" data-error-for="message" aria-live="polite"></span>
+            </label>
+
+            <label class="field field--checkbox">
+              <input type="checkbox" id="consent" name="consent" value="yes" required />
+              <span>I agree to be contacted about this request.</span>
+            </label>
+            <span class="field__error" data-error-for="consent" aria-live="polite"></span>
+
+            <button class="btn btn--primary btn--block" type="submit">
+              Send Message
+            </button>
+
+            <p class="form__status" id="formStatus" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__text">© <span id="year"></span> Youssex Shop All rights reserved.</p>
+      <a class="footer__link" href="#top">Back to top</a>
+    </div>
+  </footer>
+
+  <!-- Modal (portfolio details) -->
+  <div class="modal" id="modal" aria-hidden="true">
+    <div class="modal__backdrop" data-close-modal></div>
+    <div class="modal__panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal__close" type="button" data-close-modal aria-label="Close">×</button>
+      <h3 class="modal__title" id="modalTitle"></h3>
+      <p class="modal__desc" id="modalDesc"></p>
+      <div class="modal__meta" id="modalMeta"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
